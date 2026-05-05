@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/caarlos0/env/v6"
+	"github.com/caarlos0/env/v11"
 	"github.com/shurcooL/graphql"
 	"golang.org/x/oauth2"
 )
