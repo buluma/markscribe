@@ -31,11 +31,9 @@ archives:
 
 nfpms:
   - id: markscribe
-    builds:
-      - markscribe
     vendor: buluma
     homepage: "https://fribbledom.com/"
-    maintainer: "Christian Muehlhaeuser <buluma@gmail.com>"
+    maintainer: "Michael Buluma <bulumaknight@gmail.com>"
     description: "Your personal markdown scribe with template-engine and Git(Hub) & RSS powers"
     license: MIT
     formats:
@@ -43,16 +41,15 @@ nfpms:
       - rpm
     bindir: /usr/bin
 
-brews:
+homebrew_taps:
   - repository:
       owner: buluma
       name: homebrew-tap
     commit_author:
-      name: "Christian Muehlhaeuser"
-      email: "buluma@gmail.com"
+      name: "Michael Buluma"
+      email: "bulumaknight@gmail.com"
     homepage: "https://fribbledom.com/"
     description: "Your personal markdown scribe with template-engine and Git(Hub) & RSS powers"
-    # skip_upload: true
 
 checksum:
   name_template: "checksums.txt"

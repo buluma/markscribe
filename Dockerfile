@@ -1,6 +1,6 @@
 FROM golang:alpine as builder
 
-LABEL authors="Christian Muehlhaeuser: buluma@gmail.com"
+LABEL authors="Michael Buluma: bulumaknight@gmail.com"
 
 WORKDIR /go/markscribe
 COPY . .
