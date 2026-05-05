@@ -1,13 +1,13 @@
 # markscribe
 
-[![Latest Release](https://img.shields.io/github/release/muesli/markscribe.svg)](https://github.com/muesli/markscribe/releases)
-[![Build Status](https://github.com/muesli/markscribe/workflows/build/badge.svg)](https://github.com/muesli/markscribe/actions)
-[![Go ReportCard](https://goreportcard.com/badge/muesli/markscribe)](https://goreportcard.com/report/muesli/markscribe)
-[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://pkg.go.dev/github.com/muesli/markscribe)
+[![Latest Release](https://img.shields.io/github/release/buluma/markscribe.svg)](https://github.com/buluma/markscribe/releases)
+[![Build Status](https://github.com/buluma/markscribe/workflows/build/badge.svg)](https://github.com/buluma/markscribe/actions)
+[![Go ReportCard](https://goreportcard.com/badge/buluma/markscribe)](https://goreportcard.com/report/buluma/markscribe)
+[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://pkg.go.dev/github.com/buluma/markscribe)
 
 Your personal markdown scribe with template-engine and Git(Hub) & RSS powers 📜
 
-You can run markscribe as a GitHub Action: [readme-scribe](https://github.com/muesli/readme-scribe/)
+You can run markscribe as a GitHub Action: [readme-scribe](https://github.com/buluma/readme-scribe/)
 
 ## Usage
 
@@ -25,9 +25,9 @@ Render to a file:
 
 If you use Brew, you can simply install the package:
 
-    brew install muesli/tap/markscribe
+    brew install buluma/tap/markscribe
 
-Or download a binary from the [releases](https://github.com/muesli/markscribe/releases)
+Or download a binary from the [releases](https://github.com/buluma/markscribe/releases)
 page. Linux (including ARM) binaries are available, as well as Debian and RPM
 packages.
 
@@ -39,7 +39,7 @@ working Go environment (Go 1.16 or higher is required). See the
 
 To install markscribe, simply run:
 
-    go get github.com/muesli/markscribe
+    go get github.com/buluma/markscribe
 
 ## Templates
 
@@ -47,7 +47,7 @@ You can find an example template to generate a GitHub profile README under
 [`templates/github-profile.tpl`](templates/github-profile.tpl). Make sure to fill in (or remove) placeholders,
 like the RSS-feed or social media URLs.
 
-Rendered it looks a little like my own profile page: https://github.com/muesli
+Rendered it looks a little like my own profile page: https://github.com/buluma
 
 ## Functions
 
@@ -123,7 +123,7 @@ This function requires GitHub authentication with the following API scopes:
 ### Custom GitHub repository
 
 ```
-{{with repo "muesli" "markscribe"}}
+{{with repo "buluma" "markscribe"}}
 Name: {{.Name}}
 Description: {{.Description}}
 URL: {{.URL}}
@@ -282,4 +282,4 @@ Q: That's awesome, but can you expose more APIs and data?
 A: Of course, just open a new issue and let me know what you'd like to do with markscribe!
 
 Q: That's awesome, but I don't have my own server to run this on. Can you help?  
-A: Check out [readme-scribe](https://github.com/muesli/readme-scribe/), a GitHub Action that runs markscribe for you!
+A: Check out [readme-scribe](https://github.com/buluma/readme-scribe/), a GitHub Action that runs markscribe for you!
