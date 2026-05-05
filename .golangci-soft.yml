@@ -1,3 +1,5 @@
+version: "2"
+
 run:
   tests: false
 
@@ -16,14 +18,13 @@ linters:
   enable:
     # - dupl
     - exhaustive
-    # - exhaustivestruct
+    # - exhaustruct
     - goconst
     - godot
     - godox
-    - gomnd
+    - mnd
     - gomoddirectives
     - goprintffuncname
-    - ifshort
     # - lll
     - misspell
     - nakedret
@@ -35,13 +36,10 @@ linters:
 
   # disable default linters, they are already enabled in .golangci.yml
   disable:
-    - deadcode
     - errcheck
     - gosimple
     - govet
     - ineffassign
     - staticcheck
-    - structcheck
     - typecheck
     - unused
-    - varcheck
