@@ -24,5 +24,12 @@ jobs:
         with:
           version: latest
           args: release --snapshot --clean
+          workdir: myfolder
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      -
+        name: Upload assets
+        uses: actions/upload-artifact@v6
+        with:
+          name: myapp
+          path: myfolder/dist/*
