@@ -24,12 +24,13 @@ builds:
       - 7
 
 archives:
-  - format_overrides:
-      - goos: windows
-        format: zip
+  - formats:
+      - tar.gz
+      - zip
 
 nfpms:
-  - builds:
+  - id: markscribe
+    builds:
       - markscribe
     vendor: buluma
     homepage: "https://fribbledom.com/"
@@ -58,7 +59,6 @@ signs:
 checksum:
   name_template: "checksums.txt"
 snapshot:
-  name_template: "{{ .Tag }}-next"
 changelog:
   sort: asc
   filters:
