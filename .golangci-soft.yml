@@ -30,7 +30,6 @@ linters:
   # disable default linters, they are already enabled in .golangci.yml
   disable:
     - errcheck
-    - gosimple
     - govet
     - ineffassign
     - staticcheck
