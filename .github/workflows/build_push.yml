@@ -26,4 +26,4 @@ jobs:
         with:
           push: true
           platforms: linux/amd64, linux/amd64/v2, linux/amd64/v3
-          tags: buluma/github-action-graphviz:${{ env.tag }}
+          tags: buluma/markscribe:${{ env.tag }}
