@@ -2,7 +2,7 @@
 
 [![Latest Release](https://img.shields.io/github/release/buluma/markscribe.svg)](https://github.com/buluma/markscribe/releases)
 [![Build Status](https://github.com/buluma/markscribe/workflows/build/badge.svg)](https://github.com/buluma/markscribe/actions)
-[![Go ReportCard](https://goreportcard.com/badge/buluma/markscribe)](https://goreportcard.com/report/buluma/markscribe)
+[![Go Report Card](https://goreportcard.com/badge/github.com/buluma/markscribe)](https://goreportcard.com/report/github.com/buluma/markscribe)
 [![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://pkg.go.dev/github.com/buluma/markscribe)
 
 Your personal markdown scribe with template-engine and Git(Hub) & RSS powers 📜
