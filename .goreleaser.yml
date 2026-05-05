@@ -53,9 +53,6 @@ brews:
     description: "Your personal markdown scribe with template-engine and Git(Hub) & RSS powers"
     # skip_upload: true
 
-signs:
-  - artifacts: checksum
-
 checksum:
   name_template: "checksums.txt"
 snapshot:
