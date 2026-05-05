@@ -42,7 +42,7 @@ nfpms:
     bindir: /usr/bin
 
 brews:
-  - tap:
+  - repository:
       owner: buluma
       name: homebrew-tap
     commit_author:
