@@ -32,7 +32,7 @@ func sponsors(count int) []Sponsor {
 	var sponsors []Sponsor
 	variables := map[string]interface{}{
 		"username": githubv4.String(username),
-		"count":    githubv4.Int(count),
+		"count":    githubv4.Int(int32(count)),
 	}
 	err := gitHubClient.Query(context.Background(), &sponsorsQuery, variables)
 	if err != nil {

@@ -28,7 +28,7 @@ outer:
 	for {
 		variables := map[string]interface{}{
 			"username": githubv4.String(username),
-			"count":    githubv4.Int(count),
+			"count":    githubv4.Int(int32(count)),
 			"after":    after,
 		}
 		err := gitHubClient.Query(context.Background(), &recentStarsQuery, variables)

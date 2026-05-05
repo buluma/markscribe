@@ -1,3 +1,4 @@
+// Package main provides a template-driven markdown generator using GitHub, RSS, and other data sources.
 package main
 
 import (
@@ -25,7 +26,7 @@ func gists(count int) []Gist {
 	var gists []Gist
 	variables := map[string]interface{}{
 		"username": githubv4.String(username),
-		"count":    githubv4.Int(count),
+		"count":    githubv4.Int(int32(count)),
 	}
 	err := gitHubClient.Query(context.Background(), &gistsQuery, variables)
 	if err != nil {

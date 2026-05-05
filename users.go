@@ -40,7 +40,7 @@ func recentFollowers(count int) []User {
 	var users []User
 	variables := map[string]interface{}{
 		"username": githubv4.String(username),
-		"count":    githubv4.Int(count),
+		"count":    githubv4.Int(int32(count)),
 	}
 	err := gitHubClient.Query(context.Background(), &recentFollowersQuery, variables)
 	if err != nil {
