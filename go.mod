@@ -1,4 +1,4 @@
-module github.com/muesli/markscribe
+module github.com/buluma/markscribe
 
 go 1.25.0
 

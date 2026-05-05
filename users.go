@@ -58,7 +58,7 @@ func recentFollowers(count int) []User {
 
 /*
 {
-  user(login: "muesli") {
+  user(login: "buluma") {
     login
     followers(first: 10) {
       totalCount

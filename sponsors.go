@@ -62,7 +62,7 @@ func sponsors(count int) []Sponsor {
 
 /*
 {
-  user(login: "muesli") {
+  user(login: "buluma") {
     login
     sponsorshipsAsMaintainer(first: 100) {
       totalCount

@@ -294,7 +294,7 @@ func repo(owner, name string) Repo {
 
 /*
 {
-  user(login: "muesli") {
+  user(login: "buluma") {
     login
     repositoriesContributedTo(first: 100, includeUserRepositories: true, contributionTypes: COMMIT) {
       totalCount
@@ -310,7 +310,7 @@ func repo(owner, name string) Repo {
 }
 
 {
-  user(login: "muesli") {
+  user(login: "buluma") {
     login
     repositoriesContributedTo(first: 100, includeUserRepositories: true, contributionTypes: COMMIT) {
       totalCount
@@ -335,7 +335,7 @@ func repo(owner, name string) Repo {
 }
 
 {
-  user(login: "muesli") {
+  user(login: "buluma") {
     login
     repositories(first: 10, privacy: PUBLIC, isFork: false, ownerAffiliations: OWNER, orderBy: {field: CREATED_AT, direction: DESC}) {
       totalCount
@@ -351,7 +351,7 @@ func repo(owner, name string) Repo {
 }
 
 {
-  user(login: "muesli") {
+  user(login: "buluma") {
     login
     contributionsCollection {
       commitContributionsByRepository {

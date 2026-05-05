@@ -43,7 +43,7 @@ func gists(count int) []Gist {
 
 /*
 {
-  user(login: "muesli") {
+  user(login: "buluma") {
     login
     gists(first: 100) {
       totalCount

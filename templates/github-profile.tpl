@@ -60,6 +60,6 @@ Say Hello, I don't bite!
 - Fediverse: https://mastodon.social/@...
 - Blog: https://...
 
-Want your own self-generating profile page? Check out [readme-scribe](https://github.com/muesli/readme-scribe)!
+Want your own self-generating profile page? Check out [readme-scribe](https://github.com/buluma/readme-scribe)!
 
 <!-- comments will be preserved -->
